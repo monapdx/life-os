@@ -1,0 +1,5 @@
+# 🩺 Appointments
+
+- Date:
+- Doctor:
+- Notes:
