@@ -1,0 +1,5 @@
+# 💰 Budgets
+
+## Monthly
+- Income:
+- Expenses:
