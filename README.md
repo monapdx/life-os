@@ -6,15 +6,15 @@
 
 ---
 
-## 🧩 Main
+## Main
 
-[![Dashboard](https://img.shields.io/badge/%F0%9F%A7%AE%20Dashboard-8a2be2?style=for-the-badge)](TEMPLATES/DASHBOARD.md) [![Index](https://img.shields.io/badge/%F0%9F%93%81%20Index-8a2be2?style=for-the-badge)](TEMPLATES/INDEX.md) [![Templates](https://img.shields.io/badge/%F0%9F%93%9A%20Templates-8a2be2?style=for-the-badge)](TEMPLATES/TEMPLATES.md) [![App](https://img.shields.io/badge/%F0%9F%92%96%20App-8a2be2?style=for-the-badge)](TEMPLATES/APP_SHELL_TEMPLATE.md) 
+[![Dashboard](https://img.shields.io/badge/%F0%9F%93%8ADashboard-1f6feb?style=for-the-badge)](#) [![Index](https://img.shields.io/badge/%F0%9F%93%81Index-1f6feb?style=for-the-badge)](#) [![Templates](https://img.shields.io/badge/%F0%9F%93%9ATemplates-1f6feb?style=for-the-badge)](#) [![App](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8FApp-1f6feb?style=for-the-badge)](#)
 
-## ⚡ Quick Actions
+## Actions
 
-[![Monthly Review](https://img.shields.io/badge/%F0%9F%93%8B%20Monthly%20Review-2ea44f?style=for-the-badge)](.github/ISSUE_TEMPLATE/monthly-review.yml) [![Plan Week](https://img.shields.io/badge/%F0%9F%91%89%20Plan%20Week-2ea44f?style=for-the-badge)](.github/ISSUE_TEMPLATE/plan-week.yml) [![Project Work](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F%20Project%20Work-2ea44f?style=for-the-badge)](.github/ISSUE_TEMPLATE/project-work.yml) [![Deploy](https://img.shields.io/badge/%F0%9F%9A%80%20Deploy-2ea44f?style=for-the-badge)](.github/ISSUE_TEMPLATE/deploy.yml) 
+[![Monthly Review](https://img.shields.io/badge/%F0%9F%93%8CMonthly%20Review-1f6feb?style=for-the-badge)](#) [![Plan Week](https://img.shields.io/badge/%F0%9F%91%89Plan%20Week-1f6feb?style=for-the-badge)](#) [![New Project](https://img.shields.io/badge/%E2%AD%90New%20Project-1f6feb?style=for-the-badge)](#) [![Deploy](https://img.shields.io/badge/%F0%9F%9A%80Deploy-1f6feb?style=for-the-badge)](#)
 
-## 🚀 Launch
+## Notes
 
 [![Journal Entry](https://img.shields.io/badge/%F0%9F%93%9DJournal%20Entry-111111?style=for-the-badge)](#) [![Idea](https://img.shields.io/badge/%F0%9F%92%A1Idea-111111?style=for-the-badge)](#) [![Project](https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8FProject-111111?style=for-the-badge)](#) [![Log](https://img.shields.io/badge/%F0%9F%93%8ALog-111111?style=for-the-badge)](#) [![List](https://img.shields.io/badge/%E2%9C%85List-111111?style=for-the-badge)](#) [![Email](https://img.shields.io/badge/%F0%9F%93%A7Email-111111?style=for-the-badge)](#) [![Event](https://img.shields.io/badge/%F0%9F%93%85Event-111111?style=for-the-badge)](#) 
 
