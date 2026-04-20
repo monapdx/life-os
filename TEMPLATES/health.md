@@ -1,7 +1,6 @@
 # 🏥 Health System
 
-[![Dashboard](https://img.shields.io/badge/%F0%9F%A7%AE%20Dashboard-8a2be2?style=for-the-badge)](TEMPLATES/DASHBOARD.md) [![Index](https://img.shields.io/badge/%F0%9F%93%81%20Index-8a2be2?style=for-the-badge)](TEMPLATES/INDEX.md) [![Templates](https://img.shields.io/badge/%F0%9F%93%9A%20Templates-8a2be2?style=for-the-badge)](TEMPLATES/TEMPLATES.md) [![App](https://img.shields.io/badge/%F0%9F%92%96%20App-8a2be2?style=for-the-badge)](TEMPLATES/APP_SHELL_TEMPLATE.md) 
-
+[![ER Visits](https://img.shields.io/badge/%F0%9F%A9%BAER%20Visits-111111?style=for-the-badge)](#) [![Medications](https://img.shields.io/badge/%F0%9F%92%8AMedications-111111?style=for-the-badge)](#) [![Symptoms](https://img.shields.io/badge/%F0%9F%8F%A5Symptoms-111111?style=for-the-badge)](#) [![Conditions](https://img.shields.io/badge/%E2%9A%95%EF%B8%8FConditions-111111?style=for-the-badge)](#) [![Lab Results](https://img.shields.io/badge/%F0%9F%A7%AALab%20Results-111111?style=for-the-badge)](#) 
 ---
 
 ## Sections
