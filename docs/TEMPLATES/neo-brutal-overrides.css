@@ -3565,6 +3565,191 @@ html.page-dashboard-widget.neo-dark-doc .dashboard-progress-pct {
   font-variant-numeric: tabular-nums;
 }
 
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget--wide {
+  max-width: min(72rem, calc(100% - 2rem));
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget p.dashboard-lead {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  max-width: 62ch;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-split {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  html.page-dashboard-widget.neo-dark-doc .dashboard-split {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  }
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-field-row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 560px) {
+  html.page-dashboard-widget.neo-dark-doc .dashboard-field-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-field-row-3 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  html.page-dashboard-widget.neo-dark-doc .dashboard-field-row-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-checklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+  gap: 0.5rem 1rem;
+}
+
+html.page-dashboard-widget.neo-dark-doc label.dashboard-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  color: var(--paper);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-output,
+html.page-dashboard-widget.neo-dark-doc pre.dashboard-output {
+  margin: 0;
+  min-height: 6rem;
+  max-height: min(28rem, 50vh);
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  padding: 1rem;
+  color: var(--paper);
+  border: var(--border, 3px solid #000);
+  border-radius: var(--radius, 12px);
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-3) 100%);
+  box-shadow: var(--shadow-sm, 4px 4px 0 #000);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-preview img.dashboard-preview-img {
+  max-width: 100%;
+  max-height: min(20rem, 38vh);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 2px solid #000;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-preview-box {
+  min-height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-hint {
+  margin: 0.75rem 0 0;
+  padding: 0.65rem 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: var(--muted);
+  border: var(--border, 3px solid #000);
+  border-radius: var(--radius, 12px);
+  background: var(--panel-2);
+  box-shadow: var(--shadow-sm, 4px 4px 0 #000);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-width: 0;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 55rem) {
+  html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-results {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-group {
+  border: 2px solid #000;
+  border-radius: var(--radius, 12px);
+  padding: 0.75rem;
+  background: var(--panel-2);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-group h4 {
+  margin: 0 0 0.5rem;
+  color: var(--electric-lime, #b8ff24);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-chip {
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 2px solid #000;
+  background: var(--electric-lime, #b8ff24);
+  color: var(--ink, #050508);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #000;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-rhyme-chip:hover {
+  background: var(--sky-blue, #6ee7ff);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-status {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+html.page-dashboard-widget.neo-dark-doc button.copied {
+  background: var(--sky-blue, #6ee7ff);
+  color: var(--ink, #050508);
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"] {
+  padding: 0.65rem;
+}
+
 /* ===== thank-you.html (page-thank-you) — Builder Pack post-purchase ===== */
 
 html.page-thank-you.neo-dark-doc section.panel {
