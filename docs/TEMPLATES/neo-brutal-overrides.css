@@ -3485,7 +3485,7 @@ html.page-dashboard-widget.neo-dark-doc .dashboard-widget h4 {
   letter-spacing: 0.04em;
 }
 
-html.page-dashboard-widget.neo-dark-doc .dashboard-widget > label {
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget label:not(.dashboard-check) {
   display: block;
   margin-bottom: 1rem;
   color: var(--muted);
@@ -3746,8 +3746,68 @@ html.page-dashboard-widget.neo-dark-doc button.copied {
   color: var(--ink, #050508);
 }
 
-html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"] {
-  padding: 0.65rem;
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"],
+html.neo-dark-doc .dashboard-widget input[type="file"] {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 10px 12px;
+  border: var(--border, 3px solid #000);
+  border-radius: 12px;
+  background: var(--paper, #f7f5ef);
+  color: var(--ink, #050508);
+  font: 500 0.9rem/1.45 "IBM Plex Mono", ui-monospace, monospace;
+  box-shadow: 5px 5px 0 #000;
+  cursor: pointer;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"]:focus,
+html.neo-dark-doc .dashboard-widget input[type="file"]:focus {
+  outline: 4px solid var(--electric-lime, #b8ff24);
+  outline-offset: 3px;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"]::file-selector-button,
+html.neo-dark-doc .dashboard-widget input[type="file"]::file-selector-button {
+  margin-right: 12px;
+  padding: 8px 14px;
+  border: 3px solid #000;
+  border-radius: 999px;
+  background: var(--electric-lime, #b8ff24);
+  color: var(--ink, #050508);
+  font: 900 0.82rem/1 "Inter", system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  box-shadow: 3px 3px 0 #000;
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease, box-shadow 120ms ease;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"]::file-selector-button:hover,
+html.neo-dark-doc .dashboard-widget input[type="file"]::file-selector-button:hover {
+  background: var(--sky-blue, #6ee7ff);
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #000;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"]::-webkit-file-upload-button,
+html.neo-dark-doc .dashboard-widget input[type="file"]::-webkit-file-upload-button {
+  margin-right: 12px;
+  padding: 8px 14px;
+  border: 3px solid #000;
+  border-radius: 999px;
+  background: var(--electric-lime, #b8ff24);
+  color: var(--ink, #050508);
+  font: 900 0.82rem/1 "Inter", system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  box-shadow: 3px 3px 0 #000;
+  cursor: pointer;
+}
+
+html.page-dashboard-widget.neo-dark-doc .dashboard-widget input[type="file"]::-webkit-file-upload-button:hover,
+html.neo-dark-doc .dashboard-widget input[type="file"]::-webkit-file-upload-button:hover {
+  background: var(--sky-blue, #6ee7ff);
 }
 
 /* ===== thank-you.html (page-thank-you) — Builder Pack post-purchase ===== */
